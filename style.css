@@ -1,0 +1,24 @@
+body {
+  background-color: #ffffcc; /* fallback color */
+  background-image: url('bgd.png'); /* your native image */
+  background-repeat: repeat;         /* tiles the image */
+  background-size: cover;            /* covers entire screen */
+  background-position: center;       /* center the image */
+  min-height: 100vh;                 /* ensures body fills viewport */
+  margin: 0;                          /* remove default margin */
+  font-family: "Comic Sans MS", sans-serif;
+  text-align: center;
+}
+
+.donate-button {
+  display: inline-block;
+  padding: 20px;
+  background: limegreen;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border: 5px outset #006400;
+}
+.donate-button:hover {
+  background: red;
+}
